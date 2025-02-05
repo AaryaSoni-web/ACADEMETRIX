@@ -1,0 +1,21 @@
+{
+  "name": "result-hub",
+  "version": "1.0.0",
+  "main": "home_script.js",
+  "scripts": {
+    "start": "node home_script.js",
+    "start-result": "node result.js",
+    "start-server": "node server_result.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "mysql2": "^3.12.0"
+  },
+  "description": ""
+}

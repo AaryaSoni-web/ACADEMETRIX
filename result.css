@@ -1,0 +1,14 @@
+.no-arrow::after {
+    visibility: hidden; /* Hides the arrow without affecting functionality */
+  }
+ table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }

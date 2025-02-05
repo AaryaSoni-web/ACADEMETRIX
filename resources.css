@@ -1,0 +1,84 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height is taken up by body */
+  
+}
+
+.resources{
+    background: linear-gradient(rgb(35, 35, 35),black,black);
+    color:white;
+    margin: 0 !important;
+    padding: 50px !important;
+    border: 0 !important;
+    
+}
+.resources p{
+  margin:50px
+}
+.resources ol{
+  margin:50px
+}
+.resources li{
+  margin:30px
+}
+.resources .image-container {
+  position: relative;
+  display: inline-block; 
+  width: 100%;/* Ensures container adapts to image size */
+  height: 200px;
+  margin:0;
+  padding: 0;
+  border: 0;
+  
+}
+
+.resources .image-container img {
+  width: 100%; /* Adjust the size as needed */
+  height: 200px;
+  display: block;
+}
+
+.resources .image-container .heading {
+  position: absolute !important; /* Ensure it applies */
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  font-size: 50px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+.emblema-one-regular {
+  font-family: "Emblema One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.resources {
+  p{
+  font-size: 23px;
+  color: rgb(188, 186, 186);
+  }
+  ol{
+    font-size: 23px;
+    color: rgb(188, 186, 186);
+  }
+  b{
+    color: rgb(225, 224, 224);
+  }
+}
+
+footer{
+  background: black;
+  height: 11vh;
+  
+}
+
