@@ -1,2 +1,0 @@
-'mongodb+srv://aarya4soni:<db_password>@testresults.twyjy.mongodb.net/?retryWrites=true&w=majority&appName=testresults';
-db+srv://aarya4soni:1sJqdoeARNI6dz7J@testre
